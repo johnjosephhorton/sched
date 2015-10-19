@@ -1,0 +1,8 @@
+Package: schedR
+Title: R package with analysis for "Scheduling" paper 
+Version: 1.0
+Authors@R: person("John", "Horton", email = "john.joseph.horton@gmail.com", role = c("aut", "cre"))
+Description: Analyzes the ATUS data.
+Depends: R (>= 3.0.2), ggplot2 (>= 0.0), data.table (>= 0.0)
+License: All rights reserved (for now). 
+LazyData: true
