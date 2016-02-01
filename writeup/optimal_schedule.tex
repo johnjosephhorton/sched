@@ -1,0 +1,54 @@
+\section{Optimal work and rest scheduling with fixed costs}
+
+A worker chooses to work $h$ hours of work and then $r$ hours of rest.
+They cycle back and forth between wage and rest.
+
+The worker earns a wage $w$ but has convex costs, $c(h)$, with $c'(h) > 0$ and $c''(h) > 0$. 
+The worker gets a benefit from rest, $b(r)$, with $b'(r) > 0$ and $b''(r) < 0$.
+Starting a shift of worker costs $c_F$.
+
+The worker's utility over a period $h + r$ is then
+\begin{align}
+  u = wh - c(h) - c_F + b(r). 
+\end{align}
+Let $u^*$ be the maximized value of that utility. 
+The worker wants to maximize average utility, and so they maximize
+\begin{align}
+  \bar{u} = \max_{h,r} \frac{wh - c(h) - c_F + b(r)}{h + r}
+\end{align} 
+The first order conditions are
+\begin{align}
+ \frac{w - c'(h)}{u^*} - \frac{1}{h + r} = 0  
+\end{align} 
+and
+\begin{align}
+ \frac{b'(r)}{u^*} - \frac{1}{h + r} = 0  
+\end{align} 
+which implies that
+\begin{align}
+  w - c'(h^*) = b'(r^*)
+\end{align} 
+and that
+\begin{align}
+  w - c'(h^*) = b'(r^*) = \frac{u^*}{h + r}.
+\end{align}
+
+\subsection{When switching costs are high, there is less switching}
+If $c_F$ goes up, $\bar{u}^*$ goes down, which implies that $r^*$ goes up, as $b(r)$ is concave.
+Similarly, $h^*$ goes up.
+When switching costs are high, there is less switching.
+
+\subsection{Labor-Leisure trade-off}
+When $w$ is higher, average utility has to go up, so $r^*$ goes down and $h^*$ goes up.
+When labor becomes relatively more attractive, people worker for longer shifts. 
+
+\subsection{Empirical question: does productivity fall?}
+
+\subsection{What is the elasticity of labor supply?}
+
+Hours worked as a fraction of time available is $\frac{h}{h + r}$.
+
+
+
+
+
